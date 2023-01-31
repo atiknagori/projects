@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;400&family=Roboto:wght@400;700&display=swap');
+
+/* Resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #577592;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    width: 912px;
+    border-bottom: .5 solid #cccccc;
+    margin: 30px 114px 0 250px;
+}
+
+/* Navbar Section */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links li {
+    padding-inline: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    font-size: 15px;
+    font-family: 'popins' ;
+}
+
+.nav-links li a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.heading {
+    text-align: center;
+    margin: 80px 0 30px 0;
+}
+
+/* Banner Section */
+
+.banner-section {
+    text-align: center;
+    padding: 200px;
+    background: url(images/1500x640x2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.banner-heading span {
+    font-size: 1rem;
+}
+
+.banner-heading h1{
+    font-size: 2.5rem;
+    line-height: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.banner-heading button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;
+    background: transparent;
+}
+
+.banner-heading button:hover {
+    color: #333;
+    background: white;
+    transition: .5s ease-in-out;
+}
+
+/* Listing Section */
+
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    max-width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box .box-img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.box span a {
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+}
+
+.icons{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 20px;
+}
+
+.icons a {
+    padding: 15px;
+    text-align: center;
+}
+
+.price {
+    color: gold;
+    font-weight: 700;    
+}
+
+.bottom-padding {
+    padding-bottom: 100px;
+}
+
+/* Mission Section */
+
+.mission-section {
+    background-color: #f6f6f6;
+}
+
+.mission-box {
+    max-width: 50%;
+}
+
+.mission-box .box-img {
+    width: 100%;
+    margin: -2px;
+}
+
+.para1 {
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+.para1 h3 a {
+    color: rgb(31, 30, 30);
+}
+
+.para1 p {
+    font-size: .9rem;
+    padding-top: 20px;
+}
+
+.para2 {
+    padding-left: 150px;
+    padding-right: 30px;
+}
+
+.para2 a {
+    color: rgb(31, 30, 30);
+}
+
+.para2 p {
+    font-size: .9rem;
+    padding-top: 20px;
+}
+
+/* News Section */
+
+
+.news-section {
+    padding-bottom: 50px;    
+}
+
+.news-container {
+    font-size: 14px;
+    line-height: 20px;
+    height: 290px;
+    width: 1150px;
+    padding: 70px;
+    gap: 20px;
+}
+
+.news-img img {
+    height: 240px;
+    width: 480px;
+}
+
+.news-para h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.para {
+    font-size: .9rem;
+    padding: 10px 0 10px 0;    
+}
+
+.date {
+    font-size: .9rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+/* SPONSORS Section */
+
+.sponsors-section {
+    background-color: #f6f6f6;
+    height: 347px;
+    width: 1423px;
+}
+
+.sponsors-container {
+    padding-top: 10px;   
+}
+
+.brands img{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 25%;
+    max-width: 100%;
+}
+
+/* Review Section */
+
+.review-section {
+    background-color: #ffffff;
+    background-image: url(images/1500x1000x1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+}
+
+.review-container {
+    font-family: 'popins';
+    height: 402px;
+    width: 1423px;
+    padding: 120px 0 100px 0;
+    justify-content: space-between;
+}
+
+.review p {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 52px;
+    flex-wrap: wrap;
+}
+
+.small-bold {
+    font-size: 50px;
+}
+
+footer {
+    background-color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
